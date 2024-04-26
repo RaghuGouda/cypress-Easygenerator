@@ -18,13 +18,13 @@ Before running the tests in this repository, ensure that you have the following 
 2. cd to `cypress-Easygenerator` folder and run `npm install`
 
 ## :To Test: Run tests
-1. To run in headless mode 
+1. To run in headless mode by running the following command:
    ```bash
-  npm run cypress-run
+   npm run cypress-run
 
-2. To run in UI mode 
+2. To run in UI mode by running the following command:
    ```bash
-  npm run cypress-open
+   npm run cypress-open
 
 
 ## :IMP: 3-rd party libraries Information
