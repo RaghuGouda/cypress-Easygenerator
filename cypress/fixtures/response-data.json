@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "result": true,
+  "user": [ {
+    "name":"raghu",
+    "Job":"SDET"
+  }  ]
+}
