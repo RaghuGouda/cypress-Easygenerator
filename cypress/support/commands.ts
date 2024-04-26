@@ -33,12 +33,10 @@ Cypress.Commands.add(
   }
 );
 
-Cypress.Commands.add('handleTab',()=>{
-  cy.get('#opentab').invoke('removeAttr','target').click()
-
-})
-
-Cypress.Commands.add('fileUpload', (filepath:string) => { 
-    cy.get('input[type="file"]').selectFile(filepath)
+Cypress.Commands.add('handleTab', () => {
+  cy.get('#opentab').invoke('removeAttr', 'target').click();
 });
 
+Cypress.Commands.add('fileUpload', (filepath: string) => {
+  cy.get('input[type="file"]').selectFile(filepath);
+});
